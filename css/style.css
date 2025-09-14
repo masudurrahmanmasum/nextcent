@@ -146,7 +146,7 @@ header{
 }
 /* the unseen section style */
 .unseen_div{
-    padding: 80px 5%;
+    padding: 60px 5%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -160,4 +160,48 @@ header{
 .right_unseen p{
     margin: 20px 0;
     color: #717171;
+}
+/* helping section style */
+.helping_div{
+    padding: 40px 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F5F7FA;
+}
+.right_helping{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+.left_helping h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+.left_helping h2:nth-child(1){
+    color: #717171;
+}
+.left_helping h2:nth-child(2){
+    color: #4CAF4F;
+}
+.left_helping p{
+    margin-top: 5px;
+}
+.helping_card{
+    display: flex;
+    align-items: center;
+}
+.helping_card img{
+    margin-right: 25px;
+}
+.helping_details h2{
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.helping_details p{
+    color: #717171;
+    font-size: 13px;
+    margin-top: 5px;
 }
