@@ -130,7 +130,6 @@ header{
 .community_card{
     text-align: center;
     padding: 20px;
-    /* box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.4); */
     border-radius: 5px;
     cursor: pointer;
 }
@@ -204,4 +203,46 @@ header{
     color: #717171;
     font-size: 13px;
     margin-top: 5px;
+}
+/* smith section style */
+.smith_div{
+    padding: 40px 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.left_smith{
+    flex-basis: 20%;
+}
+.right_smith{
+    flex-basis: 55%;
+}
+#smith_client{
+    margin-top: 30px !important;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+}
+#smith_client img{
+    width: 30px;
+}
+#smith_client a{
+    text-decoration: none;
+    color: #4CAF4F;
+    font-size: 14px;
+}
+.right_smith h4{
+    margin-top: 10px;
+    color: #4CAF4F;
+    font-size: 1rem;
+}
+.right_smith span{
+    color: #89939E;
+    display: block;
+    margin-top: 10px;
+}
+.right_smith p{
+    color: #717171;
 }
